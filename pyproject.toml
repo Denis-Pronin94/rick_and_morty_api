@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rick-and-morty-api"
+version = "0.1.0"
+description = ""
+authors = ["dddpr <ddd.pronin@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "rick_and_morty_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
